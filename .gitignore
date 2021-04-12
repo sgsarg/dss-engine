@@ -1,0 +1,15 @@
+*.egg-info
+
+## VSCODE
+.vscode
+
+## PYENV
+.venv
+
+## CACHE
+.mypy_cache
+__pycache__
+.pytest_cache
+
+## POETRY
+poetry.lock

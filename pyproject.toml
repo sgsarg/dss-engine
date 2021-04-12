@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "dss-engine"
+version = "0.1.0"
+description = "Software facade for executing Distribution Systems Simulations"
+authors = ["Ettore Aquino <ettore@ettoreaquino.com>"]
+maintainers = ["Ettore Aquino <ettore@ettoreaquino.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = ""
+repository = ""
+documentation = ""
+keywords = [
+    "Domain Driven Design",
+    "Python",
+    "Scafolding",
+    "Poetry",
+    "Falcon",
+    "Docker",
+    "Power Systems",
+    "OpenDSS",
+    "Smart Grids"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+falcon = "^2.0.0"
+gunicorn = "^20.1.0"
+typing = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+docutils = "^0.17"
+pylint = "^2.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
